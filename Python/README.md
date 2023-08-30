@@ -5,8 +5,6 @@ In this folder
 webscrapping.py - This Python code was designed for a project with the goal of scraping and extracting specific information related to prices from a web page.
 The code utilizes the BeautifulSoup library for HTML parsing and the requests library to make an HTTP GET request to the specified URL.
 
-rhyming.py - this python code was designed to see if two words rhyme, to produce an output if it does or does not
-
 
 DataMiningCSV - a combination of Python files as followed, this was a university project - received 1st class -
 The 3 CSV file act as databases in which the Python script is to extract data from. The CSVs file were used to test the code.
