@@ -1,3 +1,5 @@
 # data-portfolio
 Hi, here you can find all my Data Analytics related work, including my projects at university and personal led projects.
-Each folder is labelled with information about the specific project and what language and skills were used. 
+Each branch will be named after each language I have produced work in with detail.
+For example, currently, you are on the main branch, switch to the Python branch to see my work in Python
+
