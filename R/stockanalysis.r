@@ -1,8 +1,8 @@
-# Install and load necessary libraries
+# Install and load quantmod
 install.packages("quantmod")
 library(quantmod)
 
-# Define the stock symbol and date range
+# Define the stock symbol and the date range
 stock_symbol <- "AAPL"
 start_date <- as.Date("2020-01-01")
 end_date <- as.Date("2021-12-31")
@@ -13,7 +13,7 @@ getSymbols(stock_symbol, from = start_date, to = end_date)
 # Calculate daily returns
 daily_returns <- dailyReturn(Cl(get(stock_symbol)))
 
-# Calculate basic statistics
+# Calculate basic metrics
 summary(daily_returns)
 
 # Create a time series plot of stock prices
