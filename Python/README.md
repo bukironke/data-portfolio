@@ -1,7 +1,7 @@
 Hi,
 This is my Python folder.
 In this folder
-
+twosums - code using for loops, iterate through a list of numbers to find 2 numbers that equal a specified num (target)
 webscrapping.py - This Python code was designed for a project with the goal of scraping and extracting specific information related to prices from a web page.
 The code utilizes the BeautifulSoup library for HTML parsing and the requests library to make an HTTP GET request to the specified URL.
 
