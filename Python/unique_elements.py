@@ -1,10 +1,16 @@
-def get_clean_data (data_list):
-    clean_data = []
-    for num in data_list:
-        if num not in clean_data:
-            clean_data.append(num)
-    return clean_data
+#declares a function that will take one argument which is expected to be a list 
+def find_unique_fruit (input_list):
+#initialises an empty list that will store unique strings from the input list
+    unique_fruit = []
+#initialises a loop that iterates through each element in IL assigning each element to the variable 'string'
+    for string in input_list:
+#checks if the current string is not already in the UF list
+        if string not in unique_fruit:
+#if not, it is appended to the list
+            unique_fruit.append(string)
+#returns the UF list containing only the unique elements from the input list while keeping the order
+    return unique_fruit
 
-data_list = [1, 5, 2000, 1343, 200, 3000, 2000, 1344, 2345, 9829]
-output_list = get_clean_data(data_list)
+input_list = ["apple", "banana", "orange", "apple", "kiwi", "strawberry", "lemon", "cucumber"]
+output_list = find_unique_fruit(input_list)
 print (output_list)
