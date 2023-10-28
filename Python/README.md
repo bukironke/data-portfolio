@@ -1,6 +1,8 @@
 Hi,
 This is my Python folder.
 In this folder
+
+
 twosums - code using for loops, iterate through a list of numbers to find 2 numbers that equal a specified num (target)
 
 removedduplicates - using a linked list to identify nodes which were duplicates and removed them to create a modified linked list with no duplicates
@@ -8,6 +10,7 @@ removedduplicates - using a linked list to identify nodes which were duplicates 
 webscrapping.py - This Python code was designed for a project with the goal of scraping and extracting specific information related to prices from a web page.
 The code utilizes the BeautifulSoup library for HTML parsing and the requests library to make an HTTP GET request to the specified URL.
 
+unique_elements.py - using iteration, this code contains a function that takes in a list of integers and returns a new list containing only the unique elements from the input list, making sure to maintain the original order of elements.
 
 DataMiningCSV - a combination of Python files as followed, this was a university project - received 1st class -
 The 3 CSV file act as databases in which the Python script is to extract data from. The CSVs file were used to test the code.
